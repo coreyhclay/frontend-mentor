@@ -11,7 +11,7 @@ wrapper.addEventListener('mousemove', function (e) {
   xPercent = x / w - 0.5
   yPercent = y / h - 0.5
 
-  // console.log(xPercent, yPercent);
+  // console.log(xPercent, yPercent)
 
   rotateY = xPercent * 30
   rotateX = -(yPercent * 30)
